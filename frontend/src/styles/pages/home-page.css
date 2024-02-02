@@ -7,9 +7,15 @@
   margin: auto;
   justify-content: center;
   gap: 30px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 11.4px;
+  padding-right: 11.4px;
   padding-top: 18.5px;
+}
+@media (min-width: 768px) {
+  .cards {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }
 
 .tag-card {

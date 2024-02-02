@@ -14,7 +14,7 @@ function SearchPage() {
   console.log(queryResult);
   if (!queryResult) return <div>loading...</div>;
   return (
-    <main className="search-page container my-3">
+    <main className="search-page container mt-3 mb-7">
       {!queryResult && <div className="search-page-loader">loading...</div>}
       {queryResult && (
         <div className="row">
@@ -22,7 +22,7 @@ function SearchPage() {
             <SearchController />
             <QuestionPagination totalResults={queryResult.data.totalResults} className="pt-4 pb-1" />
             <QuestionList queryResult={queryResult.data} />
-            <QuestionPagination totalResults={queryResult.data.totalResults} className={"pt-3 pb-7"} />
+            <QuestionPagination totalResults={queryResult.data.totalResults} className={"pt-3 pb-3"} />
           </div>
           <div className="search-page-info-container col-lg-4 mb-4">
             

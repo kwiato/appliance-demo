@@ -66,7 +66,6 @@ $mobile-breakpoint: $screen-sm;
 .question-preview-title {
   grid-row-start: 1;
   grid-column-start: 1;
-
   line-height: 1.2em;
   font-weight: 500;
   margin: 0;
@@ -80,10 +79,12 @@ $mobile-breakpoint: $screen-sm;
 }
 
 .question-preview-img {
-  grid-column-end: -1;
-  grid-row: 1 / span 1;
-
-  @media (min-width: $mobile-breakpoint) {
+  grid-column: 1 / 1;
+  grid-row: 2 / span 1;
+}
+@media (min-width: $mobile-breakpoint) {
+  .question-preview-img {
+    grid-column: 3 / 3;
     grid-row: 1 / span 2;
   }
 }

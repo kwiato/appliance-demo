@@ -10,9 +10,13 @@
   margin: auto;
   justify-content: center;
   gap: 30px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: $gutter-xs;
+  padding-right: $gutter-xs;
   padding-top: 18.5px;
+  @media (min-width: $screen-sm) {
+    padding-left: $gutter;
+    padding-right: $gutter;
+  }
 }
 
 .tag-card {

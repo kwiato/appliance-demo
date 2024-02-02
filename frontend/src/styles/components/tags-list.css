@@ -1,0 +1,6 @@
+.tag-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 7px;
+}/*# sourceMappingURL=tags-list.css.map */

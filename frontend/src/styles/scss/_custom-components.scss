@@ -103,6 +103,9 @@
 }
 
 .database-link {
+  @media (max-width: $screen-sm-max) {
+    display: none;
+  }
   @media (hover: none) {
     display: none;
   }
@@ -122,5 +125,16 @@
   .external-link-card {
     width: 400px;
     max-width: 100%;
+  }
+}
+
+.search-page-pagination-info {
+  @media (max-width: $screen-sm-max) {
+    flex-wrap: wrap;
+    .search-page-pagination-info-text {
+      order: 2;
+      width: 100%;
+      justify-content: center;
+    }
   }
 }

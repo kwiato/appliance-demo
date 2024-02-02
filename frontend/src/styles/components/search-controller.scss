@@ -1,6 +1,17 @@
 @import "../scss/colors";
 @import "../scss/bs5variables";
 
+.search-controller {
+  display: flex;
+  flex-direction: column;
+  gap: $gutter-sm;
+  
+  @media (min-width: $screen-sm) {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
 .search-controller-tags {
   display: flex;
   flex-wrap: wrap;

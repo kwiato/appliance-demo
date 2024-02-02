@@ -1,3 +1,15 @@
+.search-controller {
+  display: flex;
+  flex-direction: column;
+  gap: 18.5px;
+}
+@media (min-width: 768px) {
+  .search-controller {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
 .search-controller-tags {
   display: flex;
   flex-wrap: wrap;

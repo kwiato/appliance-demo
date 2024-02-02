@@ -14157,6 +14157,11 @@ textarea.form-control-lg {
   padding: 0;
 }
 
+@media (max-width: 991px) {
+  .database-link {
+    display: none;
+  }
+}
 @media (hover: none) {
   .database-link {
     display: none;
@@ -14178,4 +14183,15 @@ textarea.form-control-lg {
 .external-link-popup .external-link-card {
   width: 400px;
   max-width: 100%;
+}
+
+@media (max-width: 991px) {
+  .search-page-pagination-info {
+    flex-wrap: wrap;
+  }
+  .search-page-pagination-info .search-page-pagination-info-text {
+    order: 2;
+    width: 100%;
+    justify-content: center;
+  }
 }/*# sourceMappingURL=styles.css.map */

@@ -11,7 +11,7 @@ function QuestionPagination({ totalResults, className }) {
   return (
     <div className={"search-page-pagination " + className}>
 
-      <div className="search-page-pagination-info hstack justify-content-between gap-4">
+      <div className="search-page-pagination-info hstack justify-content-between gap-2 flex-wrap">
         <button
           className="search-page-pagination-info-button btn btn-primary rounded-pill px-3"
           onClick={() => {

@@ -31,7 +31,7 @@ function SearchController() {
 
   return (
     <div className="card bg-faded-interactive">
-      <div className="card-body search-controller hstack gap-4 align-items-start">
+      <div className="card-body search-controller">
       <div className="flex-grow-1">
         <h4 className="search-controller-sort-by-title mb-2">Tags and Communities</h4>
         <div className="search-controller-tags">
